@@ -1,0 +1,301 @@
+body
+{
+	width: 100%;
+	height: 100%;
+	background-repeat: no-repeat;
+	font-family: 'Microsoft YaHei';
+}
+.ui-gradien
+{
+	width: 40px;
+	height: 80px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.ui-gradien-box
+{
+	width: 20px;
+	height: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-image: linear-gradient(to top, green, blue, violet);
+}
+.ui-gradien-box-block
+{
+	width: 15px;
+	height: 15px;
+	background-color: #ffffff;
+}
+.ui-container1
+{
+	width: 800px;
+	background-color: #ffccff;
+	display: flex;
+	flex-direction: column;
+	float: left;
+	border-bottom: 1px solid #0000cc;
+	margin-bottom: 10px;
+}
+.ui-container1-red
+{
+	color: red;
+	margin-left: 5px;
+	margin-right: 20px;
+}
+.ui-container1-top
+{
+	height: 40px;
+	width: 800px;
+	float: left;
+	display: flex;
+	background-color: #ffffff;
+}
+.ui-container1-top-box1
+{
+	width: 80px;
+	height: 40px;
+	background-color: #0000cc;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 10px 10px 0 0;
+}
+.ui-container1-top-morning
+{
+	width: 35px;
+	height: 35px;
+	margin-left: 10px;
+	background-color: #ff3300;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 10px 10px 10px 10px;
+}
+.ui-container1-middle
+{
+	width: 798px;
+	height: 80px;
+	background-color: #ccccff;
+	border: 1px solid #0000cc;
+	border-top: 5px solid #0000cc;
+}
+.ui-container1-middle-Row
+{
+	width: 798px;
+	height: 40px;
+	float: left;
+	display: flex;
+	line-height: 40px;
+}
+.ui-container1-botton
+{
+	width: 798px;
+	height: 40px;
+	display: flex;
+	line-height: 40px;
+	background-color: #ffccff;
+	flex-direction: row-reverse;
+	border-left: 1px solid #0000cc;
+	border-right: 1px solid #0000cc;
+}
+.ui-container1-botton-press
+{
+	width: 60px;
+	height: 40px;
+	float: right;
+	color: #0000cc;
+}
+.ui-container1-botton-press i
+{
+	text-decoration: underline;
+}
+.ui-container2
+{
+	width: 800px;
+	height: auto;
+	background-color: #ffccff;
+	display: flex;
+	flex-direction: column;
+	float: left;
+}
+.ui-container2-listBox
+{
+	width: 800px;
+	height: 30px;
+	background-color: #0000cc;
+	float: left;
+	display: flex;
+}
+.ui-container2-list1
+{
+	width: 500px;
+	height: 30px;
+	border-right: 1px solid #ffffff;
+	text-align: center;
+	line-height: 30px;
+}
+.ui-container2-list2
+{
+	width: 74px;
+	height: 30px;
+	border-right: 1px solid #ffffff;
+	text-align: center;
+	line-height: 30px;
+}
+.ui-container2-map
+{
+	width: 798px;
+	height: 80px;
+	display: flex;
+	flex-direction: row;
+	float: right;
+	background-color: #ccccff;
+	border: 1px solid #0000cc;
+}
+.ui-container2-map-destination
+{
+	width: 300px;
+	height: 80px;
+	font-size: 30px;
+	display: flex;
+	align-items: center;
+	flex-direction: row;
+}
+.ui-container2-map-cloud
+{
+	height: 80px;
+	width: 160px;
+	float: right;
+	display: flex;
+	align-items: center;
+	flex-direction: row-reverse;
+}
+.cloud1
+{
+	justify-content: center;
+}
+.ui-container2-map-destination i
+{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+}
+.ui-container2-map-position
+{
+	height: 80px;
+	width: 75px;
+	text-align: center;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+.ui-container2-map-information
+{
+	height: 80px;
+	width: 224px;
+	text-align: center;
+	line-height: 80px;
+	display: flex;
+	flex-direction: row-reverse;
+	float: right;
+}
+.ui-container2-map-information div
+{
+	margin-right: 10px;
+	text-align: center;
+	color: #0000cc;
+	text-decoration: underline;
+}
+.ui-container2-datas
+{
+	width: 800px;
+	height: 80px;
+	display: flex;
+	flex-direction: row;
+}
+.ui-container2-datas-time
+{
+	width: 100px;
+	height: 80px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding-left: 40px;
+}
+.ui-container2-datas-time div
+{
+	text-align: center;
+}
+.ui-container2-datas-border
+{
+	width: 12px;
+	height: 80px;
+	background-color: #0000cc;
+	display: flex;
+	align-items: center;
+	position: absolute;
+	left: 180px;
+}
+.ui-container2-datas-border img
+{
+	position: absolute;
+	left: -34px;
+}
+.ui-container2-datas-trainNumber
+{
+	width: 320px;
+	height: 80px;
+	float: left;
+	display: flex;
+	float: left;
+	flex-direction: row;
+	padding-left: 40px;
+	align-items: center;
+	font-size: 20px;
+	color: #0000cc;
+	text-decoration: underline;
+}
+.ui-container2-datas-trainNumber i
+{
+	margin-left: 10px;
+}
+.train2
+{
+	text-decoration:none;
+}
+.ui-container2-datas-trainNumber img
+{
+	margin-left: 10px;
+}
+.ui-container2-datas-position
+{
+	width: 75px;
+	height: 80px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	border-left: 1px solid #0000cc;
+}
+.ui-container2-datas-position div
+{
+	text-align: center;
+}
+.ui-container2-datas-list
+{
+	width: 75px;
+	height: 80px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	border-left: 1px solid #0000cc;	
+}
+.ui-container2-datas-list div
+{
+	text-align: center;
+}
