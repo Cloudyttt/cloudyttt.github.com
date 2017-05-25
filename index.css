@@ -48,6 +48,11 @@ body
 	border-radius: 20px 20px 20px 20px;
 	box-shadow: 3px 3px 0 #9999ff;
 }
+.final_project
+{
+	background-color: #66ff00;
+	box-shadow: 4px 4px 0 #006600;
+}
 .project a
 {
 	text-decoration: none;
