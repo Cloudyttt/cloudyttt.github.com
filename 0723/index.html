@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1"> 
+		<title><To GC></title>
+		<!--插入flash,目前主流浏览器不兼容：<embed src="123.mp3" hidden="false" autostart="true" loop="true">-->
+		<meta name="description" content="Grid Loading and Hover Effect: Recreating Samsung's grid loading effect" />
+		<meta name="keywords" content="grid loading, swipe, effect, slide, masonry, web design, tutorial" />
+		<link rel="stylesheet" type="text/css" href="css/normalize.css" />
+		<link rel="stylesheet" type="text/css" href="css/demo.css" />
+		<link rel="stylesheet" type="text/css" href="css/component.css" />
+		<style>
+		body 
+		{
+			background-image:url("img/123123123.jpg");	
+			background-size:100% 100%;
+
+		}
+		.codrops-demos a.current-demo 
+		{
+			color: #f00;
+			font-size: 1.2em;
+		}
+		.codrops-header h1 
+		{
+			margin-top: 70px;
+			font-family: 'Microsoft Yahei';
+			color: #93f;
+			text-shadow: 2px 2px 0px #006;
+		}
+		</style>
+		<script src="js/modernizr.custom.js"></script>
+	</head>
+	<body>
+		<audio controls="controls" hidden="hidden" autoplay="autoplay" loop="loop">
+  			<source src="123.mp3" type="audio/mpeg" />
+		</audio>
+		<div class="container">
+			<header class="codrops-header">
+				<h1>Always Together With You</h1>	
+				<nav class="codrops-demos">
+					<a class="current-demo" href="">Happy birthday to GC's 20th birthday!</a>
+				</nav>
+			</header>
+			<section class="grid-wrap">
+				<ul class="grid swipe-down" id="grid">
+					<li><a href=""><img src="img/1.jpg" alt="img01"><h3>sunny sky sunny you 2016</h3></a></li>
+					<li><a href=""><img src="img/2.jpg" alt="img02"><h3>Pan'an September 2014</h3></a></li>
+					<li><a href=""><img src="img/3.jpg" alt="img03"><h3>A Lovely Shy girl 2013</h3></a></li>
+					<li><a href=""><img src="img/4.jpg" alt="img04"><h3>Xianju Summer 2016</h3></a></li>
+					<li><a href=""><img src="img/5.jpg" alt="img05"><h3>Hangzhou Autumn 2016</h3></a></li>
+					<li><a href=""><img src="img/6.jpg" alt="img06"><h3>the first we meet 2012</h3></a></li>
+					<li><a href=""><img src="img/7.jpg" alt="img07"><h3>warmth 2012 to 2015</h3></a></li>
+					<li><a href=""><img src="img/8.jpg" alt="img08"><h3>strong strong you are 2016</h3></a></li>
+					<li><a href=""><img src="img/9.jpg" alt="img09"><h3>Real Simple Memory 2015</h3></a></li>
+					<li><a href=""><img src="img/27.jpg" alt="img10"><h3>accompany all the time</h3></a></li>
+					<li><a href=""><img src="img/11.jpg" alt="img11"><h3>your were 17 years old 2014</h3></a></li>
+					<li><a href=""><img src="img/12.jpg" alt="img12"><h3>i say and you listen 2016</h3></a></li>
+					<li><a href=""><img src="img/13.jpg" alt="img13"><h3>We are together 2016</h3></a></li>
+					<li><a href=""><img src="img/14.jpg" alt="img14"><h3>winter 2012</h3></a></li>
+
+					<li><a href=""><img src="img/24.jpg" alt="img01"><h3>windmill and you 2016</h3></a></li>
+					<li><a href=""><img src="img/26.jpg" alt="img02"><h3>happy each day</h3></a></li>
+					<li><a href=""><img src="img/20.jpg" alt="img03"><h3>never give up 2013</h3></a></li>
+					<li><a href=""><img src="img/23.jpg" alt="img04"><h3>keep smiling 2016</h3></a></li>
+					<li><a href=""><img src="img/21.jpg" alt="img05"><h3>photo of you and me 2016</h3></a></li>
+					<li><a href=""><img src="img/19.jpg" alt="img06"><h3>always a child 2012</h3></a></li>
+					<li><a href=""><img src="img/25.jpg" alt="img07"><h3> catch shrimp and fish 2017</h3></a></li>
+					<li><a href=""><img src="img/28.jpg" alt="img08"><h3>happy birthday to you 2017</h3></a></li>
+					<li><a href=""><img src="img/16.jpg" alt="img09"><h3>Promise to work hard 2017</h3></a></li>
+					<li><a href=""><img src="img/10.jpg" alt="img10"><h3>with big big smile 2016</h3></a></li>
+					<li><a href=""><img src="img/15.jpg" alt="img11"><h3>My birthday with you 2017</h3></a></li>
+					<li><a href=""><img src="img/18.jpg" alt="img12"><h3>Brother and sister</h3></a></li>
+					<li><a href=""><img src="img/22.jpg" alt="img13"><h3>we are together 2016</h3></a></li>
+					<li><a href=""><img src="img/17.jpg" alt="img14"><h3>sunshine breeze and you 20XX</h3></a></li>
+				</ul>
+			</section>
+			<!--<div>
+				<img src="img/123123321.jpg" width="100%"/>
+			</div>-->
+		</div><!-- /container -->
+		<script src="js/masonry.pkgd.min.js"></script>
+		<script src="js/imagesloaded.pkgd.min.js"></script>
+		<script src="js/classie.js"></script>
+		<script src="js/colorfinder-1.1.js"></script>
+		<script src="js/gridScrollFx.js"></script>
+		<script>
+			new GridScrollFx( document.getElementById( 'grid' ), {
+				viewportFactor : 0.4
+			} );
+		</script>
+		<script src="http://dreamsky.github.io/main/blog/common/jquery.min.js"></script>
+	</body>
+</html>
